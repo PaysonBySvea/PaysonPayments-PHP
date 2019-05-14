@@ -45,7 +45,7 @@ try {
             'notificationUri' => str_replace(basename($_SERVER['PHP_SELF']), 'notification.php', $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) . '?ref=prs'
         ),
         'gui' => array(
-            'colorScheme' => 'WhiteNoFooter',
+            'colorScheme' => 'White',
             'locale' => 'sv'
         )
     );

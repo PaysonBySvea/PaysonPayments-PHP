@@ -37,7 +37,7 @@ try {
         // Update checkout
         $guiColorScheme = 'white';
         if ($recurringSubscriptionCheckout['gui']['colorScheme'] == $guiColorScheme) {
-           $guiColorScheme = 'blue';
+           $guiColorScheme = 'gray';
         }
         $recurringSubscriptionCheckout['gui']['colorScheme'] = $guiColorScheme;
         $updatedRecurringSubscriptionCheckout = $recurringSubscriptionClient->update($recurringSubscriptionCheckout);

@@ -37,7 +37,7 @@ try {
         // Update checkout
         $guiColorScheme = 'white';
         if ($currentCheckout['gui']['colorScheme'] == $guiColorScheme) {
-            $guiColorScheme = 'blue';
+            $guiColorScheme = 'gray';
         }
         $currentCheckout['gui']['colorScheme'] = $guiColorScheme;
         $updatedCheckout = $checkoutClient->update($currentCheckout);
