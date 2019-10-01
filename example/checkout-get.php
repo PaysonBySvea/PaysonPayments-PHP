@@ -13,7 +13,7 @@ try {
         $checkoutId = $_POST['checkoutId'];
 
         // Include library
-        require_once '../paysonpayments/include.php';
+        require_once '../include.php';
 
         // Include TestAccount credentials
         require_once 'test-credentials.php';

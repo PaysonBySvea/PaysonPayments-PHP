@@ -10,7 +10,7 @@ print('<div id="wrapper" style="width:100%;max-width:600px;margin:0 auto;">');
     
 try {
     // Include library
-    require_once '../paysonpayments/include.php';
+    require_once '../include.php';
 
     // Include TestAccount credentials
     require_once 'test-credentials.php';

@@ -18,7 +18,7 @@ try {
         setcookie('checkoutId', '', time()-60*60*24*365 , '/', ($_SERVER['HTTP_HOST'] != 'localhost') ? $_SERVER['HTTP_HOST'] : false, false);
         
         // Include library
-        require_once '../paysonpayments/include.php';
+        require_once '../include.php';
 
         // Include TestAccount credentials
         require_once 'test-credentials.php';
