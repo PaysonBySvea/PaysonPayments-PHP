@@ -1,6 +1,6 @@
 {
     "name": "payson/paysonpayments",
-    "version": "2.1.2",
+    "version": "2.1.3",
     "description": "Payson Recurring Payments and Payson Checkout API client for PHP",
     "license": "UNLICENSE",
     "authors": [

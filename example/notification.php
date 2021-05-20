@@ -71,6 +71,12 @@ try {
 
                 // Return 200 to make the notifications stop
                 returnResponse(200);
+            case 'processingPayment':
+                // Take action
+                //Some time passes while payment is processed.
+
+                // Return 200 OK
+                returnResponse(200);
             case 'paidToAccount':
                 // Take action, e.g mark order as paid
 
