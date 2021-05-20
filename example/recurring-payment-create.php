@@ -34,6 +34,7 @@ try {
         $recurringPaymentData = array(
             'subscriptionid' => $subscriptionId,
             'notificationUri' => str_replace(basename($_SERVER['PHP_SELF']), 'notification.php', $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) . '?ref=prp',
+            'expirationDate' => date('Y-m-d', strtotime(' +'. $days .' day')),
             'order' => array(
                 'currency' => 'sek',
                 'items' => array(
