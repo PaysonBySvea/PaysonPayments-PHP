@@ -1,3 +1,22 @@
+<html>
+    <body>  
+         <head>
+            <script type = "text/javascript">
+             <!--
+                // Sent when customer adress has been set or changed
+                document.addEventListener("PaysonEmbeddedAddressChanged",function(evt) {
+                    var address = evt.detail;
+
+                    console.info('******** customer adress ********');
+                    console.log(address);
+
+
+                });
+             //-->
+              </script> 
+
+         </head>
+
 <?php
 /* 
  * Create checkout
@@ -90,3 +109,8 @@ try {
     // Print error message and error code
     print($e->getMessage() . $e->getCode());
 }
+
+?>
+
+    </body>    
+</html>
