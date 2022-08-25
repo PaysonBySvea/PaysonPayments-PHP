@@ -19,5 +19,5 @@ class SdkVersion
      *
      * @var string
      */
-    public static $sdkVersion = 'PP_PHP|2.1.4';
+    public static $sdkVersion = 'PP_PHP|2.1.5';
 }

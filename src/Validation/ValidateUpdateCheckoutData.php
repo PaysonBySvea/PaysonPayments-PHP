@@ -56,7 +56,7 @@ class ValidateUpdateCheckoutData extends ValidationService
         foreach ($requiredFields as $field) {
             $this->mustBeSet($merchantData, $field, 'Merchant ' . $field);
             $this->mustBeString($merchantData[$field], 'Merchant ' . $field);
-            $this->lengthMustBeBetween(trim($merchantData[$field]), 9, 600, 'Merchant ' . $field . ' should contain http:// or https:// and');
+            $this->lengthMustBeBetween(trim($merchantData[$field]), 9, 2000, 'Merchant ' . $field . ' should contain http:// or https:// and');
         }
     }
     
